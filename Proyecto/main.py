@@ -1,0 +1,25 @@
+import subprocess
+from AlgoritmosGeneracion import AlgoritmosGeneracion
+
+#p = AlgoritmosGeneracion.grafoErdosRenyi(100, 70)
+#p = AlgoritmosGeneracion.grafoMalla(8, 8)
+#p = AlgoritmosGeneracion.grafoMalla(15, 14)
+#p = AlgoritmosGeneracion.grafoMalla(23, 23)
+#p = AlgoritmosGeneracion.grafoErdosRenyi(50, 100)
+#p = AlgoritmosGeneracion.grafoErdosRenyi(200, 300)
+p = AlgoritmosGeneracion.grafoErdosRenyi(500, 1500)
+#p = AlgoritmosGeneracion.grafoGilbert(50, 0.3)
+#p = AlgoritmosGeneracion.grafoGilbert(200, 0.3)
+#p = AlgoritmosGeneracion.grafoGilbert(500, 0.4)
+#p = AlgoritmosGeneracion.grafoGeografico(50, 0.3)
+#p = AlgoritmosGeneracion.grafoGeografico(200, 0.3)
+#p = AlgoritmosGeneracion.grafoGeografico(500, 0.3)
+#p = AlgoritmosGeneracion.grafoBarabasiAlbert(50, 3)
+#p = AlgoritmosGeneracion.grafoBarabasiAlbert(100, 3)
+#p = AlgoritmosGeneracion.grafoBarabasiAlbert(500, 4)
+#p = AlgoritmosGeneracion.grafoDorogovtsevMendes(50)
+#p = AlgoritmosGeneracion.grafoDorogovtsevMendes(200)
+#p = AlgoritmosGeneracion.grafoDorogovtsevMendes(500)
+# Nombre del archivo con l
+p.getGraph()
+#p.getGraph2("erdos_renyi_500")
